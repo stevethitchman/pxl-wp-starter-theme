@@ -1,0 +1,44 @@
+/** todo: gdpr cookie popover style **/
+/** todo: searchwp ajax style **/
+html, body {
+    /*background: #edf2f7;*/
+    background: #fff;
+    color: #1a202c;
+}
+
+.logo_widget {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.logo_widget div {
+    padding: 0 10px;
+}
+.logo_widget--2 div {
+    width: 50%;
+}
+.logo_widget--3 div {
+    width: calc(100% / 3);
+}
+.logo_widget--4 div {
+    width: calc(100% / 4);
+}
+
+footer .widget_heading {
+    font-size: 1.75rem;
+}
+
+.social_links ul {
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.social_links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social_links svg path {
+    fill: #000;
+}
